@@ -3,8 +3,8 @@ module github.com/geekros/server
 go 1.23.10
 
 require (
-	github.com/geekros/structure v0.0.1
-	github.com/geekros/utils v0.0.4
+	github.com/geekros/structure v0.0.0-20250611015330-b2e52098a207
+	github.com/geekros/utils v0.0.0-20250611015246-bd24ee24a1b7
 	github.com/gin-contrib/cors v1.7.5
 	github.com/gin-gonic/gin v1.10.1
 	github.com/gookit/color v1.5.4
