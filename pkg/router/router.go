@@ -52,8 +52,6 @@ func (r *Router) InitHandler() *gin.Engine {
 
 	handlerGroup := r.engine.Group("handler")
 	{
-		handlerGroup.GET("/ping", handler.Health)
-
 		handlerGroup.GET("/health", handler.Health)
 	}
 
