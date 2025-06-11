@@ -15,11 +15,29 @@
 package handler
 
 import (
-	structure "github.com/geekros/structure/pkg"
+	"github.com/geekros/structure/pkg/empty"
+	"github.com/geekros/utils/pkg/authentication"
 	"github.com/geekros/utils/pkg/response"
 	"github.com/gin-gonic/gin"
 )
 
-func Health(c *gin.Context) {
-	response.Success(c, structure.EmptyData{})
+func AuthToken(c *gin.Context) {
+
+	responseData := responseAgentIndex{}
+
+	roleType := c.DefaultQuery("role_type", "")
+	if roleType == "" {
+		response.Error(c, empty.EmptyData{})
+	}
+
+	data := map[string]interface{}{
+		"role": "",
+	}
+
+	token, err := authentication.GenerateToken("", data, 24)
+	if err != nil {
+		response.Warning(c, 10000, "", empty.EmptyData{})
+	}
+
+	response.Success(c, empty.EmptyData{})
 }

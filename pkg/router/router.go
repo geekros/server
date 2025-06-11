@@ -53,6 +53,8 @@ func (r *Router) InitHandler() *gin.Engine {
 	handlerGroup := r.engine.Group("handler")
 	{
 		handlerGroup.GET("/health", handler.Health)
+
+		handlerGroup.GET("/auth/token", handler.AuthToken)
 	}
 
 	return r.engine

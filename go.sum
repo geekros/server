@@ -12,12 +12,14 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/gabriel-vasile/mimetype v1.4.8 h1:FfZ3gj38NjllZIeJAmMhr+qKL8Wu+nOoI3GqacKw1NM=
 github.com/gabriel-vasile/mimetype v1.4.8/go.mod h1:ByKUIKGjh1ODkGM1asKUbQZOLGrPjydw3hYPU2YU9t8=
-github.com/geekros/structure v0.0.0-20250611030417-e3e7e9cdf5ed h1:kBzxqStnoI56tvLv1OtIw96Ru9FfEhWasEyCGsWUIq8=
-github.com/geekros/structure v0.0.0-20250611030417-e3e7e9cdf5ed/go.mod h1:Zhr/DRZslcBYuEHTh+7ZOgn2+WgZDps/dvY8V9CqHIY=
-github.com/geekros/structure v0.0.0-20250611030632-b8fab221845c h1:uq2XLSi26/UfC7Nrn0G573DYnHHqt9rZ3XPU9vpSu6o=
-github.com/geekros/structure v0.0.0-20250611030632-b8fab221845c/go.mod h1:Zhr/DRZslcBYuEHTh+7ZOgn2+WgZDps/dvY8V9CqHIY=
+github.com/geekros/structure v0.0.0-20250611080514-673601387080 h1:9MNwy7eg6atUsJarUEbWNu71ZQf3B/TDBrxTi7b61G0=
+github.com/geekros/structure v0.0.0-20250611080514-673601387080/go.mod h1:Zhr/DRZslcBYuEHTh+7ZOgn2+WgZDps/dvY8V9CqHIY=
+github.com/geekros/structure v0.0.0-20250611081044-bd9df411e49f h1:M8f+Z/3uKJmnxK8VuiyZUwSwxjNzmcpR2v/ZurdrCsQ=
+github.com/geekros/structure v0.0.0-20250611081044-bd9df411e49f/go.mod h1:Zhr/DRZslcBYuEHTh+7ZOgn2+WgZDps/dvY8V9CqHIY=
 github.com/geekros/utils v0.0.0-20250611024558-1bee116cc808 h1:hOVmStf1F5hhzd6BoS3VpKvAgGkrMWha1el7MdsQmMI=
 github.com/geekros/utils v0.0.0-20250611024558-1bee116cc808/go.mod h1:6+win4zni77CX0yjC+Jtd2Y1YhcKNsBpYWr74FTTW6s=
+github.com/geekros/utils v0.0.0-20250611080951-aa5834f79010 h1:ZcGqnqyZm2R6Oxde217P/16sNBWQzHtG3i8hfDVeAc4=
+github.com/geekros/utils v0.0.0-20250611080951-aa5834f79010/go.mod h1:6+win4zni77CX0yjC+Jtd2Y1YhcKNsBpYWr74FTTW6s=
 github.com/gin-contrib/cors v1.7.5 h1:cXC9SmofOrRg0w9PigwGlHG3ztswH6bqq4vJVXnvYMk=
 github.com/gin-contrib/cors v1.7.5/go.mod h1:4q3yi7xBEDDWKapjT2o1V7mScKDDr8k+jZ0fSquGoy0=
 github.com/gin-contrib/sse v1.0.0 h1:y3bT1mUWUxDpW4JLQg/HnTqV4rozuW4tC9eFKTxYI9E=
@@ -34,6 +36,8 @@ github.com/go-playground/validator/v10 v10.26.0 h1:SP05Nqhjcvz81uJaRfEV0YBSSSGMc
 github.com/go-playground/validator/v10 v10.26.0/go.mod h1:I5QpIEbmr8On7W0TktmJAumgzX4CA1XNl4ZmDuVHKKo=
 github.com/goccy/go-json v0.10.5 h1:Fq85nIqj+gXn/S5ahsiTlK3TmC85qgirsdTP/+DeaC4=
 github.com/goccy/go-json v0.10.5/go.mod h1:oq7eo15ShAhp70Anwd5lgX2pLfOS3QCiwU/PULtXL6M=
+github.com/golang-jwt/jwt/v4 v4.5.2 h1:YtQM7lnr8iZ+j5q71MGKkNw9Mn7AjHM68uc9g5fXeUI=
+github.com/golang-jwt/jwt/v4 v4.5.2/go.mod h1:m21LjoU+eqJr34lmDMbreY2eSTRJ1cv77w39/MY0Ch0=
 github.com/google/go-cmp v0.5.5 h1:Khx7svrCpmxxtHBq5j2mp/xVjsi8hQMfNLvJFAlrGgU=
 github.com/google/go-cmp v0.5.5/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/gofuzz v1.0.0/go.mod h1:dBl0BpW6vV/+mYPU4Po3pmUjxk6FQPldtuIdl/M65Eg=
